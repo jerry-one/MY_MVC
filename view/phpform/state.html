@@ -1,0 +1,161 @@
+<div id="floating_menubar" style="margin-left: 243px; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 99;">
+    <div id="serverinfo"><img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="" alt="" class="icon ic_s_host item"><a
+            href="index.php?token=e87004f3b6981bff9cc8ff72c5dd1816" class="item">服务器: Local Databases</a>
+        <div class="clearfloat"></div>
+    </div>
+    <div id="topmenucontainer" class="menucontainer">
+        <ul id="topmenu" class="resizable-menu">
+            <li>
+
+                <a href="server_databases.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="数据库" alt="数据库" class="icon ic_s_db">&nbsp;数据库 </a>
+            </li>
+            <li>
+
+                <a href="server_sql.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL </a>
+            </li>
+            <li class="active">
+
+                <a href="server_status.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tabactive">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="状态" alt="状态" class="icon ic_s_status">&nbsp;状态 </a>
+            </li>
+            <li>
+
+                <a href="server_privileges.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816&amp;viewing_mode=server"
+                   class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="账户" alt="账户" class="icon ic_s_rights">&nbsp;账户 </a>
+            </li>
+            <li>
+
+                <a href="server_export.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="导出" alt="导出" class="icon ic_b_export">&nbsp;导出 </a>
+            </li>
+            <li>
+
+                <a href="server_import.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="导入" alt="导入" class="icon ic_b_import">&nbsp;导入 </a>
+            </li>
+            <li>
+
+                <a href="prefs_manage.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="设置" alt="设置" class="icon ic_b_tblops">&nbsp;设置 </a>
+            </li>
+            <li>
+
+                <a href="server_replication.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="复制" alt="复制" class="icon ic_s_replication">&nbsp;复制 </a>
+            </li>
+            <li>
+
+                <a href="server_variables.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="变量" alt="变量" class="icon ic_s_vars">&nbsp;变量 </a>
+            </li>
+            <li>
+
+                <a href="server_collations.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="字符集" alt="字符集" class="icon ic_s_asci">&nbsp;字符集 </a>
+            </li>
+            <li>
+
+                <a href="server_engines.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="引擎" alt="引擎" class="icon ic_b_engine">&nbsp;引擎 </a>
+            </li>
+            <li>
+
+                <a href="server_plugins.php?db=&amp;token=e87004f3b6981bff9cc8ff72c5dd1816" class="tab">
+                    <img src="./<?= _PUBLIC_.'table_files/'?>pmahomme/img/b_plugin.png" title="插件" alt="插件">&nbsp;插件 </a>
+            </li>
+            <li class="submenu" style=""><a href="#" class="tab nowrap"><img alt="" title="" src="<?= _PUBLIC_.'table_files/'?>dot.gif"
+                                                                             class="icon ic_b_more">更多</a>
+                <ul class="notonly"></ul>
+            </li>
+            <div class="clearfloat"></div>
+        </ul>
+    </div>
+</div>
+<div id="page_content">
+    <div>
+        <ul id="topmenu2">
+            <li><a class="tabactive" href="server_status.php?token=e87004f3b6981bff9cc8ff72c5dd1816">服务器</a></li>
+            <li><a href="server_status_processes.php?token=e87004f3b6981bff9cc8ff72c5dd1816">进程</a></li>
+            <li><a href="server_status_queries.php?token=e87004f3b6981bff9cc8ff72c5dd1816">查询统计</a></li>
+            <li><a href="server_status_variables.php?token=e87004f3b6981bff9cc8ff72c5dd1816">所有状态变量</a></li>
+            <li><a href="server_status_monitor.php?token=e87004f3b6981bff9cc8ff72c5dd1816">监控</a></li>
+            <li><a href="server_status_advisor.php?token=e87004f3b6981bff9cc8ff72c5dd1816">建议</a></li>
+        </ul>
+        <div class="clearfloat"></div>
+        <h3>自启动以来的网络流量: 1.5 MB</h3>
+        <p>此 MySQL 服务器已运行 0 天 8 小时，30 分 20 秒。启动时间为 2018-09-06 00:02:54 。
+        </p>
+        <table id="serverstatustraffic" class="data noclick">
+            <thead>
+            <tr>
+                <th>流量&nbsp;<span class="pma_hint"><img src="<?= _PUBLIC_.'table_files/'?>dot.gif" title="" alt=""
+                                                        class="icon ic_b_help"><span class="hide">在高负载的服务器上，字节计数器可能会溢出，因此由 MySQL 返回的统计值可能会不正确。</span></span>
+                </th>
+                <th>#</th>
+                <th>ø 每小时</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+                <th class="name">已接收</th>
+                <td class="value">160.8 KB</td>
+                <td class="value">18.9 KB</td>
+            </tr>
+            <tr class="even">
+                <th class="name">已发送</th>
+                <td class="value">1.3 MB</td>
+                <td class="value">159.7 KB</td>
+            </tr>
+            <tr class="odd">
+                <th class="name">总计</th>
+                <td class="value">1.5 MB</td>
+                <td class="value">178.6 KB</td>
+            </tr>
+            </tbody>
+        </table>
+        <table id="serverstatusconnections" class="data noclick">
+            <thead>
+            <tr>
+                <th>连接</th>
+                <th>#</th>
+                <th>ø 每小时</th>
+                <th>%</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+                <th class="name">最大并发连接数</th>
+                <td class="value">4</td>
+                <td class="value">---</td>
+                <td class="value">---</td>
+            </tr>
+            <tr class="even">
+                <th class="name">已失败</th>
+                <td class="value">0</td>
+                <td class="value">0</td>
+                <td class="value">0%</td>
+            </tr>
+            <tr class="odd">
+                <th class="name">已取消</th>
+                <td class="value">0</td>
+                <td class="value">0</td>
+                <td class="value">0%</td>
+            </tr>
+            <tr class="even">
+                <th class="name">总计</th>
+                <td class="value">568</td>
+                <td class="value">66.78</td>
+                <td class="value">100.00%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
